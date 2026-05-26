@@ -44,7 +44,7 @@ export default function Hero() {
           className="text-xs font-semibold tracking-widest uppercase text-muted mt-6 mb-6 pt-6"
           style={{ borderTop: '1px solid rgba(255,255,255,0.1)' }}
         >
-          Software Developer · Project Manager · CS Graduate
+          Software Developer · Project Manager · Content Creator
         </p>
         <p className="text-base leading-relaxed max-w-md mb-10" style={{ color: 'rgba(255,255,255,0.6)' }}>
           Building real products that solve real problems — from full-stack delivery systems to iOS apps.
