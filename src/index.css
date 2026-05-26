@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #faf7f2;
+    color: #1a1814;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .section-tag {
+    @apply flex items-center gap-3 text-xs font-semibold tracking-widest uppercase text-coral mb-4;
+  }
+  .section-tag::before {
+    content: '';
+    @apply block w-8 h-px bg-coral flex-shrink-0;
+  }
+  .btn-coral {
+    @apply bg-coral text-white font-semibold text-xs tracking-widest uppercase px-8 py-3.5 inline-block transition-all duration-200 hover:bg-coral-dark hover:-translate-y-0.5 no-underline;
+  }
+  .btn-ghost {
+    @apply bg-transparent border font-semibold text-xs tracking-widest uppercase px-8 py-3.5 inline-block transition-all duration-200 no-underline;
+    color: rgba(255,255,255,0.7);
+    border-color: rgba(255,255,255,0.2);
+  }
+  .btn-ghost:hover {
+    @apply border-coral text-coral -translate-y-0.5;
+  }
+  .btn-outline {
+    @apply bg-transparent text-ink border border-border font-semibold text-xs tracking-widest uppercase px-6 py-3 inline-block transition-all duration-200 hover:border-coral hover:text-coral no-underline;
+  }
+  .pill {
+    @apply text-xs font-medium px-3.5 py-1.5 border border-border text-ink2 bg-cream;
+  }
+  .pill-coral {
+    @apply text-xs font-medium px-3.5 py-1.5 border border-coral-border bg-coral-light;
+    color: #712B13;
+  }
+  .pill-teal {
+    @apply text-xs font-medium px-3.5 py-1.5 border border-teal-border bg-teal-light;
+    color: #085041;
+  }
+}
+
+@layer utilities {
+  .fade-up {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.65s ease, transform 0.65s ease;
+  }
+  .fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
