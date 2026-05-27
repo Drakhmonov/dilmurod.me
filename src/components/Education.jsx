@@ -3,9 +3,10 @@ import useFadeUp from './useFadeUp'
 
 const education = [
   {
-    degree: 'BSc (Hons) Computer Science',
+    degree: 'BSc (Hons) Computer Science — did not complete',
     uni: 'Brunel University London',
     date: 'Oct 2021 – Jul 2025',
+    note: '2 years academic + 1 year industry placement',
     modules: [
       'Software Development and Management',
       'Algorithms and their Applications',
@@ -15,15 +16,23 @@ const education = [
     ],
   },
   {
-    degree: 'Computing with Data Science & Big Data Technology',
+    degree: 'BSc (Hons) Computing with Data Science & Big Data Technology',
     uni: 'Northumbria University London',
-    date: 'Feb 2026 – Sep 2026',
+    date: 'Feb 2026 – Sep 2026 · In Progress',
     modules: [
       'Data Science and Data Analytics',
       'Technology Strategy & Leadership',
       'Big Data Analytics',
       'Machine Learning on Cloud',
       'UG Computing Project',
+    ],
+  },
+  {
+    degree: 'Pearson BTEC Level 3 Foundation Diploma',
+    uni: 'Cambridge International University, Tashkent',
+    date: 'Jan 2020 – Jan 2021',
+    modules: [
+      'Business and Information Technology',
     ],
   },
 ]
@@ -55,7 +64,9 @@ export default function Education() {
             >
               <p className="font-display font-bold text-white text-base leading-snug mb-2">{e.degree}</p>
               <p className="text-xs font-semibold tracking-wide mb-1" style={{ color: '#9FE1CB' }}>{e.uni}</p>
-              <p className="text-xs tracking-widest uppercase mb-6" style={{ color: 'rgba(255,255,255,0.45)' }}>{e.date}</p>
+              <p className="text-xs tracking-widest uppercase mb-1" style={{ color: 'rgba(255,255,255,0.45)' }}>{e.date}</p>
+              {e.note && <p className="text-xs mb-5" style={{ color: 'rgba(255,255,255,0.35)' }}>{e.note}</p>}
+              {!e.note && <div className="mb-5" />}
               {e.modules.map((m, j) => (
                 <div
                   key={j}

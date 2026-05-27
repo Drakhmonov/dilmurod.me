@@ -25,16 +25,29 @@ export default function Connect() {
             <p className="text-ink2 leading-relaxed max-w-sm mb-8">
               Whether it's a job opportunity, a collaboration, or just a conversation — I'm always open to connecting.
             </p>
-            <div className="inline-block px-8 py-6" style={{ background: '#D85A30' }}>
-              <p className="text-xs font-semibold tracking-widest uppercase mb-1" style={{ color: 'rgba(255,255,255,0.6)' }}>
-                Direct email
-              </p>
-              <a
-                href="mailto:dilmurod.rakhmonov01@gmail.com"
-                className="font-display font-bold text-white text-base no-underline hover:underline"
-              >
-                dilmurod.rakhmonov01@gmail.com
-              </a>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <div className="inline-block px-8 py-6" style={{ background: '#D85A30' }}>
+                <p className="text-xs font-semibold tracking-widest uppercase mb-1" style={{ color: 'rgba(255,255,255,0.6)' }}>
+                  Direct email
+                </p>
+                <a
+                  href="mailto:dilmurod.rakhmonov01@gmail.com"
+                  className="font-display font-bold text-white text-base no-underline hover:underline"
+                >
+                  dilmurod.rakhmonov01@gmail.com
+                </a>
+              </div>
+              <div className="inline-block px-8 py-6 border border-border">
+                <p className="text-xs font-semibold tracking-widest uppercase mb-1 text-muted">
+                  Phone
+                </p>
+                <a
+                  href="tel:+447535728096"
+                  className="font-display font-bold text-ink text-base no-underline hover:text-coral transition-colors duration-200"
+                >
+                  +44 7535 728096
+                </a>
+              </div>
             </div>
           </div>
 

@@ -3,6 +3,12 @@ import useFadeUp from './useFadeUp'
 
 const experience = [
   {
+    date: 'Sep 2024 – Jul 2025',
+    company: 'Oshpaz Ltd',
+    role: 'IT Project Manager',
+    desc: 'Designed and built a Telegram Web App for internal restaurant order management — actively used across multiple branches. Backend built in Python and deployed on Railway; frontend in HTML, CSS, and JavaScript hosted on Netlify. Applied Agile methodologies to plan and execute project sprints, managed team communication via Trello and Discord, and oversaw Git-based version control across the team.',
+  },
+  {
     date: 'Mar 2025 – Present',
     company: 'Uztech UK',
     role: 'Project Manager (Volunteer)',
@@ -13,6 +19,12 @@ const experience = [
     company: 'Oshpaz LTD',
     role: 'Customer Service Supervisor',
     desc: 'Leading and motivating a team of customer service representatives to achieve high productivity and satisfaction. Applying analytical thinking to identify and solve operational challenges, while fostering a collaborative, high-performance team culture.',
+  },
+  {
+    date: '2022 – 2025',
+    company: 'Uzbek Culture UK',
+    role: 'Web Contributor',
+    desc: 'Collaborated with Oshpaz and Moneff teams to build and maintain the Uzbek Culture UK website using Wix. Contributed to site structure, content, and resource sourcing to support the organisation\'s cultural outreach.',
   },
 ]
 

@@ -8,6 +8,7 @@ const projects = [
     title: 'Internal Delivery Management System',
     desc: 'Built for Oshpaz LTD to replace manual chat-based ordering between branches and central stock. Enables structured order placement, notes, and delivery tracking — actively used in production today.',
     tags: ['Python', 'JavaScript', 'SQL', 'HTML/CSS'],
+    link: 'https://github.com/Drakhmonov',
     featured: true,
   },
   {
@@ -94,6 +95,17 @@ function ProjectCard({ project: p, delay }) {
           </span>
         ))}
       </div>
+      {p.link && (
+        <a
+          href={p.link}
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex items-center gap-2 mt-5 text-xs font-semibold tracking-widest uppercase no-underline transition-opacity duration-200 hover:opacity-70"
+          style={{ color: p.featured ? 'rgba(255,255,255,0.6)' : '#8a8680' }}
+        >
+          <span>GitHub ↗</span>
+        </a>
+      )}
       {/* Hover accent line */}
       <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-coral scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
     </div>

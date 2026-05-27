@@ -7,9 +7,11 @@ export default function About() {
   useFadeUp(headerRef)
   useFadeUp(bodyRef)
 
-  const techSkills = ['Python', 'JavaScript', 'Java', 'Swift', 'SQL', 'HTML', 'CSS']
-  const toolSkills = ['Agile / Scrum', 'Project Management', 'Git & GitHub', 'Trello', 'Visual Paradigm', 'MS Office']
+  const techSkills = ['Python', 'JavaScript', 'Java', 'Swift', 'SQL', 'HTML', 'CSS', 'Dart / Flutter']
+  const toolSkills = ['React', 'Tailwind CSS', 'Telegram Bot API', 'Railway', 'Netlify', 'Git & GitHub', 'Agile / Scrum', 'Trello', 'Vite']
+  const dataSkills = ['Python (Pandas, NumPy)', 'SQL', 'SPSS', 'Machine Learning']
   const softSkills = ['Team Leadership', 'Communication', 'Problem Solving', 'Stakeholder Mgmt']
+  const languages = ['Uzbek (Native)', 'English (Fluent)', 'Persian (Fluent)', 'Russian (Intermediate)', 'Turkish (Conversational)', 'Spanish (Beginner)']
 
   return (
     <section id="about" className="bg-cream py-28 px-8 md:px-16">
@@ -60,10 +62,22 @@ export default function About() {
               {toolSkills.map(s => <span key={s} className="pill-teal">{s}</span>)}
             </div>
             <p className="text-xs font-semibold tracking-widest uppercase text-muted mb-4 pb-3 border-b border-border">
+              Data & Analytics
+            </p>
+            <div className="flex flex-wrap gap-2 mb-6">
+              {dataSkills.map(s => <span key={s} className="pill">{s}</span>)}
+            </div>
+            <p className="text-xs font-semibold tracking-widest uppercase text-muted mb-4 pb-3 border-b border-border">
               Strengths
             </p>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 mb-6">
               {softSkills.map(s => <span key={s} className="pill">{s}</span>)}
+            </div>
+            <p className="text-xs font-semibold tracking-widest uppercase text-muted mb-4 pb-3 border-b border-border">
+              Spoken Languages
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {languages.map(s => <span key={s} className="pill-teal">{s}</span>)}
             </div>
           </div>
         </div>
