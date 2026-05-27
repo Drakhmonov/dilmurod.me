@@ -53,6 +53,7 @@ export default function Hero() {
         <div className="flex flex-wrap gap-4">
           <a href="#projects" className="btn-coral">See My Work</a>
           <a href="#connect" className="btn-ghost">Get in Touch</a>
+          <a href="/cv-dilmurod-rakhmonov.docx" download className="btn-ghost">↓ Download CV</a>
         </div>
       </div>
 

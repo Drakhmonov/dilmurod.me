@@ -36,6 +36,15 @@ export default function Navbar() {
           ))}
           <li>
             <a
+              href="/cv-dilmurod-rakhmonov.docx"
+              download
+              className="text-xs font-semibold tracking-widest uppercase px-5 py-2 border border-ink text-ink hover:bg-ink hover:text-white transition-colors duration-200 no-underline"
+            >
+              CV ↓
+            </a>
+          </li>
+          <li>
+            <a
               href="#connect"
               className="text-xs font-semibold tracking-widest uppercase px-5 py-2 bg-ink text-white hover:bg-coral transition-colors duration-200 no-underline"
             >
