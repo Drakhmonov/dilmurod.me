@@ -17,7 +17,7 @@ export default function Hero() {
     { num: 'BSc', title: 'Computer Science', sub: 'Brunel University London · 2025' },
     { num: '3+', title: 'Years of industry experience', sub: 'Leadership & project management' },
     { num: '4', title: 'Projects shipped', sub: 'Full-stack, Java, iOS & team projects' },
-    { num: 'PG', title: 'Data Science & Big Data', sub: 'Northumbria University London · 2026', accent: true },
+    { num: 'BSc', title: 'Data Science & Big Data (Final Year)', sub: 'Northumbria University London · 2026', accent: true },
   ]
 
   return (
