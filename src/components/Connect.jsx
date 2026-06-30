@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import useFadeUp from './useFadeUp'
 
 const socials = [
-  { label: 'LinkedIn', badge: 'in', color: '#0A66C2', handle: '/in/dilmurod-rakhmonov-397381233', url: 'https://www.linkedin.com/in/dilmurod-rakhmonov/' },
+  { label: 'LinkedIn', badge: 'in', color: '#0A66C2', handle: '/in/dilmurod-rakhmonov', url: 'https://www.linkedin.com/in/dilmurod-rakhmonov/' },
   { label: 'GitHub', badge: 'GH', color: '#1a1814', handle: 'Drakhmonov', url: 'https://github.com/Drakhmonov' },
   { label: 'YouTube', badge: 'YT', color: '#FF0000', handle: '@dilmurod.abroad', url: 'https://www.youtube.com/@dilmurod.abroad' },
   { label: 'Instagram', badge: 'IG', color: '#E1306C', handle: '@dilmurod.abroad', url: 'https://www.instagram.com/dilmurod.abroad/' },
