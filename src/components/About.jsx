@@ -31,8 +31,9 @@ export default function About() {
               organisation, clear communication, and energy to every role.
             </p>
             <p className="text-ink2 mb-5 leading-relaxed">
-              Having just completed my BSc in Computer Science at Brunel, I'm now going deeper into Data Science
-              and Big Data at Northumbria University London — combining my coding background with modern analytics.
+              After completing 2 years plus an industry placement year of my BSc in Computer Science at Brunel,
+              I transferred to Northumbria University London to go deeper into Data Science and Big Data —
+              combining my coding background with modern analytics.
             </p>
             <p className="text-ink2 mb-8 leading-relaxed">
               Outside tech, you'll find me learning new languages, playing football, travelling, or connecting
