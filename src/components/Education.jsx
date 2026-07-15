@@ -3,10 +3,10 @@ import useFadeUp from './useFadeUp'
 
 const education = [
   {
-    degree: 'BSc (Hons) Computer Science — did not complete',
+    degree: 'BSc (Hons) Computer Science',
     uni: 'Brunel University London',
     date: 'Oct 2021 – Jul 2025',
-    note: '2 years academic + 1 year industry placement',
+    note: 'Completed 2 years + 1 year industry placement — transferred to Northumbria',
     modules: [
       'Software Development and Management',
       'Algorithms and their Applications',
